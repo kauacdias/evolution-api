@@ -30,3 +30,7 @@ else
     echo "Error: Database provider $DATABASE_PROVIDER invalid."
     exit 1
 fi
+
+npm run db:generate
+
+npm run start:prod
